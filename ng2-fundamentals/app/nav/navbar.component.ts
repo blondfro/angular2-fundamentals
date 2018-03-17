@@ -14,7 +14,6 @@ import {Component} from "@angular/core";
 
 export class NavbarComponent {}
 
-
 /**
  * Created by me on 3/16/2018.
  */
