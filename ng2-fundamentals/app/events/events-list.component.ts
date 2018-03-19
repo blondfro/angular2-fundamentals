@@ -5,7 +5,6 @@ import {EventService} from "./shared/event.service";
 import {ToastrService} from "../common/toastr.service";
 
 @Component({
-    selector: 'events-list',
     template: `
         <title>{{pageTitle}}</title>
         <div>
