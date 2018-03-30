@@ -24,7 +24,8 @@ import { JQ_TOKEN,
         TOASTR_TOKEN,
         Toastr,
         CollapsibleWellComponent,
-        SimpleModalComponent
+        SimpleModalComponent,
+        ModalTriggerDirective
     } from './common/index';
 
 import {appRoutes} from './routes';
@@ -53,7 +54,8 @@ declare let jQuery: Object;
         Error404Component,
         CollapsibleWellComponent,
         DurationPipe,
-        SimpleModalComponent
+        SimpleModalComponent,
+        ModalTriggerDirective
     ],
     providers: [
         EventService,
