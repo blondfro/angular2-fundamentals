@@ -20,7 +20,12 @@ import {
 import {EventsAppComponent} from './events-app.component';
 import {NavbarComponent} from './nav/navbar.component';
 import {Error404Component} from './errors/404.component';
-import { JQ_TOKEN, TOASTR_TOKEN, Toastr, CollapsibleWellComponent } from './common/index';
+import { JQ_TOKEN,
+        TOASTR_TOKEN,
+        Toastr,
+        CollapsibleWellComponent,
+        SimpleModalComponent
+    } from './common/index';
 
 import {appRoutes} from './routes';
 import {AuthService} from './user/auth.service';
@@ -48,6 +53,7 @@ declare let jQuery: Object;
         Error404Component,
         CollapsibleWellComponent,
         DurationPipe,
+        SimpleModalComponent
     ],
     providers: [
         EventService,
